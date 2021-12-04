@@ -276,6 +276,7 @@ main {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin: 0 auto;
 }
 /* titlt */
 .title {
@@ -294,8 +295,9 @@ main {
   background-color: var(--white);
   border-radius: var(--borderRadius);
   box-shadow: var(--shadow-2);
-  width: 70vw;
-  height: 700px;
+  /* width: 60vw; */
+  /* max-height: 700px; */
+  padding: 1rem 2rem;
 }
 /* btn */
 .btn-tab {
